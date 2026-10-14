@@ -1,0 +1,11 @@
+{
+  "name": "md2docx",
+  "private": true,
+  "description": "Markdownレポートを Word (.docx) に変換する",
+  "scripts": {
+    "convert": "node md2docx.js"
+  },
+  "dependencies": {
+    "docx": "9.5.1"
+  }
+}
